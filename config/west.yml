@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: maximus5684
+      url-base: https://github.com/maximus5684/zmk.git
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: maximus5684
+      revision: feature/sofle_rgb_keyhive
       import: app/west.yml
   self:
     path: config
