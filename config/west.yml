@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: maximus5684
-      url-base: https://github.com/maximus5684
+    - name: capnbard
+      url-base: https://github.com/capnbard
   projects:
     - name: zmk
       remote: capnbard
