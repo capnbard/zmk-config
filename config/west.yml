@@ -3,11 +3,11 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: capnbard
-      url-base: https://github.com/capnbard
+      url-base: https://github.com/maximus5684
   projects:
-    - name: zmk-config
-      remote: capnbard
-      revision: master
+    - name: zmk
+      remote: maximus5684
+      revision: feature/sofle_rgb_keyhive
       import: app/west.yml
   self:
     path: config
