@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/maximus5684
   projects:
     - name: zmk
-      remote: maximus5684
-      revision: feature/sofle_rgb_keyhive
+      remote: capnbard
+      revision: master
       import: app/west.yml
   self:
     path: config
